@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>INFORMACION DE CONTACTO </title>
+  </head>
+
+  <body>
+    <h2>Informacion de contacto</h2>
+    <table cellspacing="5" >
+      <tr>
+        <td>Telefono Celular:</td>
+        <td>9993514906</td>
+      </tr>
+      <tr>
+        <td>Correo electronico:</td>
+        <td>Memomatos@hotmail.com</td>
+      </tr>
+      <tr>
+        <td>Ubicacion:</td>
+        <td>Merida,Yucatan</td>
+      </tr>
+    </table>
+    <hr noshade>
+<!--Este forma requiere quitar el atributo clase y agregar el enctype para que funcione correctamente-->
+    <form  action="mailto:memomatos@hotmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="">Tu name:</label></td>
+          <td><input type="text" name="Nombre" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="">Tu Email:</label></td>
+          <td><input type="email" name="Correo" value=""><br></td>
+        </tr>
+      </table>
+      <label for="">Ingrese su Mensaje</label><br>
+      <textarea name="Mensaje" rows="10" cols="31"></textarea><br>
+      <input type="submit" name="" >
+    </form>
+
+
+
+  </body>
+</html>
